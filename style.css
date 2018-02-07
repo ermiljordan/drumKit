@@ -25,8 +25,13 @@ html,body {
   width: 10rem;
   text-align: center;
   color: white;
+  transition: all 0.07s;
 }
-
+.playing {
+  transform:scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
 kbd {
   font-size: 4rem;
   display: block;
